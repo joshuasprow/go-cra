@@ -1,0 +1,11 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "pipeline": {
+    "go-cra-client#dev-client": { "cache": false },
+    "go-cra-client#dev-server": { "cache": false },
+    "dev": {
+      "cache": false,
+      "dependsOn": ["go-cra-client#dev-client", "go-cra-client#dev-server"]
+    }
+  }
+}

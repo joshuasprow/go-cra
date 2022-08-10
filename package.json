@@ -1,0 +1,17 @@
+{
+  "name": "go-cra",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "errors",
+    "server"
+  ],
+  "scripts": {
+    "dev": "turbo run dev"
+  },
+  "devDependencies": {
+    "prettier": "latest",
+    "turbo": "latest"
+  }
+}
